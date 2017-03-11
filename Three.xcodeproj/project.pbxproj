@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		4C1FDB0F1DFADE6C00CAD3CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FDB0E1DFADE6C00CAD3CF /* main.m */; };
 		4C1FDB121DFADE6C00CAD3CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FDB111DFADE6C00CAD3CF /* AppDelegate.m */; };
-		4C1FDB151DFADE6C00CAD3CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FDB141DFADE6C00CAD3CF /* ViewController.m */; };
 		4C1FDB181DFADE6C00CAD3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FDB161DFADE6C00CAD3CF /* Main.storyboard */; };
 		4C1FDB1A1DFADE6C00CAD3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FDB191DFADE6C00CAD3CF /* Assets.xcassets */; };
 		4C1FDB1D1DFADE6C00CAD3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FDB1B1DFADE6C00CAD3CF /* LaunchScreen.storyboard */; };
 		4C1FDB261DFAE70700CAD3CF /* ZFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FDB251DFAE70700CAD3CF /* ZFTabBarController.m */; };
+		4C9613561E73C5E800D6BA2C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9613551E73C5E800D6BA2C /* CoreLocation.framework */; };
+		4C9613581E73C5F300D6BA2C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9613571E73C5F300D6BA2C /* Security.framework */; };
+		4C96135A1E73C5FE00D6BA2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9613591E73C5FE00D6BA2C /* CoreGraphics.framework */; };
+		4C96135C1E73C60700D6BA2C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C96135B1E73C60700D6BA2C /* MobileCoreServices.framework */; };
+		4C96135E1E73C61000D6BA2C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C96135D1E73C61000D6BA2C /* CFNetwork.framework */; };
+		4C9613601E73C61700D6BA2C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C96135F1E73C61700D6BA2C /* CoreTelephony.framework */; };
+		4C9613621E73C61F00D6BA2C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9613611E73C61F00D6BA2C /* SystemConfiguration.framework */; };
+		4C9613641E73C62A00D6BA2C /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9613631E73C62A00D6BA2C /* libz.1.2.5.tbd */; };
+		4C9613661E73C63500D6BA2C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9613651E73C63500D6BA2C /* libicucore.tbd */; };
+		4C9613681E73C63F00D6BA2C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9613671E73C63F00D6BA2C /* libsqlite3.tbd */; };
+		4C96136A1E73C64B00D6BA2C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9613691E73C64B00D6BA2C /* libc++.tbd */; };
+		4C96136C1E73C71600D6BA2C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C96136B1E73C71600D6BA2C /* libWeChatSDK.a */; };
+		4C96136E1E73C74800D6BA2C /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C96136D1E73C74800D6BA2C /* BmobSDK.framework */; };
 		4CFF777E1E66AFCE00112779 /* ZFChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF77751E66AFCE00112779 /* ZFChatViewController.m */; };
 		4CFF777F1E66AFCE00112779 /* ZFChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF77761E66AFCE00112779 /* ZFChatViewController.xib */; };
 		4CFF77801E66AFCE00112779 /* ZFFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF77791E66AFCE00112779 /* ZFFindViewController.m */; };
@@ -24,10 +36,8 @@
 /* Begin PBXFileReference section */
 		4C1FDB0A1DFADE6C00CAD3CF /* Three.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Three.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1FDB0E1DFADE6C00CAD3CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4C1FDB101DFADE6C00CAD3CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4C1FDB111DFADE6C00CAD3CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C1FDB131DFADE6C00CAD3CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4C1FDB141DFADE6C00CAD3CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C1FDB101DFADE6C00CAD3CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		4C1FDB111DFADE6C00CAD3CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		4C1FDB171DFADE6C00CAD3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C1FDB191DFADE6C00CAD3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C1FDB1C1DFADE6C00CAD3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +45,20 @@
 		4C1FDB241DFAE70700CAD3CF /* ZFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTabBarController.h; sourceTree = "<group>"; };
 		4C1FDB251DFAE70700CAD3CF /* ZFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTabBarController.m; sourceTree = "<group>"; };
 		4C1FDB301DFAFB5300CAD3CF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4C9613501E73C33100D6BA2C /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
+		4C9613551E73C5E800D6BA2C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4C9613571E73C5F300D6BA2C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4C9613591E73C5FE00D6BA2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C96135B1E73C60700D6BA2C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4C96135D1E73C61000D6BA2C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4C96135F1E73C61700D6BA2C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4C9613611E73C61F00D6BA2C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4C9613631E73C62A00D6BA2C /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		4C9613651E73C63500D6BA2C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		4C9613671E73C63F00D6BA2C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4C9613691E73C64B00D6BA2C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4C96136B1E73C71600D6BA2C /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		4C96136D1E73C74800D6BA2C /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
 		4CFF77741E66AFCE00112779 /* ZFChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFChatViewController.h; sourceTree = "<group>"; };
 		4CFF77751E66AFCE00112779 /* ZFChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFChatViewController.m; sourceTree = "<group>"; };
 		4CFF77761E66AFCE00112779 /* ZFChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFChatViewController.xib; sourceTree = "<group>"; };
@@ -50,6 +74,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C96136A1E73C64B00D6BA2C /* libc++.tbd in Frameworks */,
+				4C9613681E73C63F00D6BA2C /* libsqlite3.tbd in Frameworks */,
+				4C9613661E73C63500D6BA2C /* libicucore.tbd in Frameworks */,
+				4C9613641E73C62A00D6BA2C /* libz.1.2.5.tbd in Frameworks */,
+				4C96136C1E73C71600D6BA2C /* libWeChatSDK.a in Frameworks */,
+				4C9613621E73C61F00D6BA2C /* SystemConfiguration.framework in Frameworks */,
+				4C96136E1E73C74800D6BA2C /* BmobSDK.framework in Frameworks */,
+				4C9613601E73C61700D6BA2C /* CoreTelephony.framework in Frameworks */,
+				4C96135E1E73C61000D6BA2C /* CFNetwork.framework in Frameworks */,
+				4C96135C1E73C60700D6BA2C /* MobileCoreServices.framework in Frameworks */,
+				4C96135A1E73C5FE00D6BA2C /* CoreGraphics.framework in Frameworks */,
+				4C9613581E73C5F300D6BA2C /* Security.framework in Frameworks */,
+				4C9613561E73C5E800D6BA2C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			children = (
 				4C1FDB0C1DFADE6C00CAD3CF /* Three */,
 				4C1FDB0B1DFADE6C00CAD3CF /* Products */,
+				4C9613541E73C5E700D6BA2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +116,8 @@
 				4CFF77731E66AFCE00112779 /* Chat */,
 				4CFF77771E66AFCE00112779 /* Find */,
 				4CFF777B1E66AFCE00112779 /* Me */,
-				4C1FDB101DFADE6C00CAD3CF /* AppDelegate.h */,
-				4C1FDB111DFADE6C00CAD3CF /* AppDelegate.m */,
-				4C1FDB131DFADE6C00CAD3CF /* ViewController.h */,
-				4C1FDB141DFADE6C00CAD3CF /* ViewController.m */,
+				4C96134F1E73AEC700D6BA2C /* Other */,
+				4C9613511E73C58F00D6BA2C /* Framework */,
 				4C1FDB241DFAE70700CAD3CF /* ZFTabBarController.h */,
 				4C1FDB251DFAE70700CAD3CF /* ZFTabBarController.m */,
 				4C1FDB301DFAFB5300CAD3CF /* PrefixHeader.pch */,
@@ -100,6 +136,43 @@
 				4C1FDB0E1DFADE6C00CAD3CF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C96134F1E73AEC700D6BA2C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FDB101DFADE6C00CAD3CF /* AppDelegate.h */,
+				4C1FDB111DFADE6C00CAD3CF /* AppDelegate.m */,
+				4C9613501E73C33100D6BA2C /* AppDefine.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4C9613511E73C58F00D6BA2C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		4C9613541E73C5E700D6BA2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C96136D1E73C74800D6BA2C /* BmobSDK.framework */,
+				4C96136B1E73C71600D6BA2C /* libWeChatSDK.a */,
+				4C9613691E73C64B00D6BA2C /* libc++.tbd */,
+				4C9613671E73C63F00D6BA2C /* libsqlite3.tbd */,
+				4C9613651E73C63500D6BA2C /* libicucore.tbd */,
+				4C9613631E73C62A00D6BA2C /* libz.1.2.5.tbd */,
+				4C9613611E73C61F00D6BA2C /* SystemConfiguration.framework */,
+				4C96135F1E73C61700D6BA2C /* CoreTelephony.framework */,
+				4C96135D1E73C61000D6BA2C /* CFNetwork.framework */,
+				4C96135B1E73C60700D6BA2C /* MobileCoreServices.framework */,
+				4C9613591E73C5FE00D6BA2C /* CoreGraphics.framework */,
+				4C9613571E73C5F300D6BA2C /* Security.framework */,
+				4C9613551E73C5E800D6BA2C /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4CFF77731E66AFCE00112779 /* Chat */ = {
@@ -207,7 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CFF777E1E66AFCE00112779 /* ZFChatViewController.m in Sources */,
-				4C1FDB151DFADE6C00CAD3CF /* ViewController.m in Sources */,
 				4CFF77821E66AFCE00112779 /* ZFMeViewController.m in Sources */,
 				4C1FDB121DFADE6C00CAD3CF /* AppDelegate.m in Sources */,
 				4CFF77801E66AFCE00112779 /* ZFFindViewController.m in Sources */,
@@ -331,10 +403,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5T93Z8W53E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Three/Framework",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Three/PrefixHeader.pch";
 				INFOPLIST_FILE = Three/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Michael.Three;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -345,10 +426,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5T93Z8W53E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Three/Framework",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Three/PrefixHeader.pch";
 				INFOPLIST_FILE = Three/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Michael.Three;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -27,6 +27,10 @@
     
     [self.window makeKeyAndVisible];
     
+#ifdef kBmobAppId
+    [Bmob registerWithAppKey:kBmobAppId];
+#endif
+    
     return YES;
 }
 
